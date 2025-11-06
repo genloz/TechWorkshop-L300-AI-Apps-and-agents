@@ -8,9 +8,9 @@ on:
       - 'src/**'
 
 env:
-  AZURE_CONTAINER_REGISTRY: $
-  AZURE_APP_SERVICE_NAME: $
-  AZURE_RESOURCE_GROUP: $
+  AZURE_CONTAINER_REGISTRY: piqlenwvfzysqcosureg.azurecr.io
+  AZURE_APP_SERVICE_NAME: piqlenwvfzysq-app
+  AZURE_RESOURCE_GROUP: techworkshop-l300-ai-agents-au
   IMAGE_NAME: chat-app
 
 jobs:
