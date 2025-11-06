@@ -37,5 +37,5 @@ jobs:
       - name: Build and push Docker image
         run: |
           cd src/
-          docker build -t $/$:latest .
-          docker push $/$:latest
+          docker build -t piqlenwvfzysqcosureg.azurecr.io/chat-app:latest .
+          docker push piqlenwvfzysqcosureg.azurecr.io/chat-app:latest
